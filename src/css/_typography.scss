@@ -1,0 +1,151 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.25;
+  .wf-active & {
+    // font-family: "Open Sans", sans-serif;
+  }
+}
+
+h1, h2, h3, h4 {
+  margin-top: 0;
+}
+
+// heading hierarchy
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+// http://typecast.com/blog/a-more-modern-scale-for-web-typography
+
+
+@media (min-width: 43.75em) {
+  html {
+    line-height: 1.375;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25;
+  @media (min-width: 43.75em) {
+      font-size: 2.5em;
+      line-height: 1.125;
+  }
+  @media (min-width: 56.25em) {
+      font-size: 3em;
+      line-height: 1.05;
+  }
+}
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615;
+  @media (min-width: 43.75em) {
+      font-size: 2em;
+      line-height: 1.25;
+  }
+  @media (min-width: 56.25em) {
+      font-size: 2.25em;
+      line-height: 1.25;
+  }
+}
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364;
+  @media (min-width: 43.75em) {
+      font-size: 1.5em;
+      line-height: 1.25;
+  }
+  @media (min-width: 56.25em) {
+      font-size: 1.75em;
+      line-height: 1.25;
+  }
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111;
+  @media (min-width: 43.75em) {
+      line-height: 1.22222222;
+  }
+}
+
+blockquote {
+  font-size: 1.25em;
+  line-height: 1.25;
+  @media (min-width: 43.75em) {
+      font-size: 1.5em;
+      line-height: 1.45833333;
+  }
+}
+
+// links
+
+a {
+  &:link, &:visited {
+    color: $blue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  transition: color 0.25s;
+}
+
+a {
+  &:hover, &:active {
+    color: lighten($blue, 20%);
+    text-decoration: underline;
+  }
+  // no outline, change bg colour
+  &:focus {
+    text-decoration: underline;
+    outline: none;
+    background-color: $grey;
+  }
+}
+
+ul, ol {
+  padding: 0 0 0 1em;
+  margin-left: 1em;
+}
+
+ul {
+  li {
+
+  }
+}
+
+
+// Preferred measure: 22-38em
+
+article {
+  // @media (min-width: $bp-s) {
+  //   padding-left: 15%;
+  //   padding-right: 15%;
+  // }
+  // @media (min-width: $bp-m) {
+  //   padding-left: 20%;
+  //   padding-right: 20%;
+  // }
+  // @media (min-width: $bp-l) {
+  //   padding-left: 25%;
+  //   padding-right: 25%;
+  // }
+  // @media (min-width: $bp-xl) {
+  //   padding-left: 30%;
+  //   padding-right: 30%;
+  // }
+}
