@@ -1,0 +1,16 @@
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: $body-text;
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: $body-text;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: $body-text;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: $body-text;
+  font-style: italic;
+}
