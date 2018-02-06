@@ -71,7 +71,7 @@ add_action( 'widgets_init', 'kickplate_widgets_init' );
  * Enqueue scripts and styles.
  */
 function kickplate_scripts() {
-	wp_enqueue_style( 'kickplate-style', get_template_directory_uri() . '/css/style.min.css', arrary(), '0.1' );
+	wp_enqueue_style( 'kickplate-style', get_template_directory_uri() . '/css/style.min.css', array(), '0.1' );
 
 	wp_enqueue_script( 'kickplate-shiv', get_template_directory_uri() . '/js/html5shiv.min.js', array(), '1.0' );
 
