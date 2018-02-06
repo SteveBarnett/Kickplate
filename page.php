@@ -9,7 +9,5 @@ get_header(); ?>
 		endwhile; // End of the loop.
 		?>
 
-	</main><!-- #main -->
-
 get_sidebar();
 get_footer();
