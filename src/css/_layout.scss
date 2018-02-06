@@ -10,7 +10,7 @@ main {
   padding: 1em;
 }
 
-:empty {
+:not(img):empty {
   display: none;
 }
 
