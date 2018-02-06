@@ -42,8 +42,9 @@
   				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 			<?php
 			endif;
+			?>
 
-		  <p class="site-description"><?php echoget_bloginfo( 'description', 'display' ); ?></p>
+		  <p class="site-description"><?php echo get_bloginfo( 'description', 'display' ); ?></p>
 
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
 				<nav id="menu" class="nav-main" role="navigation">
